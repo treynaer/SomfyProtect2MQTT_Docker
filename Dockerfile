@@ -2,7 +2,7 @@ FROM alpine:latest
 ENV LANG C.UTF-8
 
 # SomfyProtect2MQTT version
-ARG VERSION=0.1.4
+ARG VERSION=0.1.5
 
 # Install required packages
 RUN apk update && apk add bash
